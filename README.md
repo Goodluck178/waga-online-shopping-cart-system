@@ -23,6 +23,7 @@ The project demonstrates backend development fundamentals critical for enterpris
 
 •	Storage: Product images stored as `product_{hash}.jpeg/jpg/png` in filesystem
 
+
 #### My system uses 6 relational tables with proper referential integrity:
 
 #### 1.  users
@@ -103,11 +104,20 @@ The project demonstrates backend development fundamentals critical for enterpris
 
 •	Input Handling: Product images sanitized as hashed filenames (`product_6a03542db2d49.jpeg`) to prevent directory traversal.
 
- How to Run Locally
+ ## How to Run Locally
+ 
 1. Start XAMPP Apache & MySQL
+ 
 2. Clone to `C:\xampp\htdocs\waga\`
-3. In phpMyAdmin, create `online_shop_db` and import `online_shop_db.sql`
+ 
+3. In phpMyAdmin, create `online_shop_db` and import `online_shop_db.sql
+ `
 4. Configure DB connection in `config.php` / `db_connect.php`:
+ 
     php
-    $conn = new mysqli("127.0.0.1", "root", "", "online_shop_db"); Run: http://localhost/waga/Test Accounts (from my DB):
+   
+    $conn = new mysqli("127.0.0.1", "root", "", "online_shop_db");
+   
+   Run: http://localhost/waga/Test Accounts (from my DB):
+   
 Admin: mads@gmail.com / my admin passwordUser: Goodluck@yahoo.com / my user password
