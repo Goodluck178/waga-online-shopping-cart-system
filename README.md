@@ -23,15 +23,15 @@ The project demonstrates backend development fundamentals critical for enterpris
 
 •	Storage: Product images stored as `product_{hash}.jpeg/jpg/png` in filesystem
 
-### My system uses 6 relational tables with proper referential integrity:
+#### My system uses 6 relational tables with proper referential integrity:
 
-1. ## users
+#### 1.  users
 •	id (PK), name, surname, email (UNIQUE), password (BCRYPT hashed), mobileNo (UNIQUE), profile_image (default.png or profile {ID}.jpg), role ENUM('user','admin')
 •	Implements secure authentication with BCRYPT hashing (verified in my data: $2y$10$...)
 •	Unique constraints on `email` and `mobileNo` to prevent duplicates
 •	Role-based access: user vs admin, the system currently has 6 admin users.
 
-2. products
+#### 2. products
 •	id (PK), product_name, product_price DECIMAL (10,2), product_image, created_at
 •	Sample data: HP Laptop (€650), HD Plasma TV (€300), sports car (€10000)
 
