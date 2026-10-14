@@ -1,8 +1,11 @@
-WAGA - Online Shopping Cart System
+# Academic Project
+
+# WAGA - Online Shopping Cart System
  
 A secure, full-stack e-commerce platform built with PHP & MySQL, featuring persistent cart logic, role-based access control, and relational database design.
 
-Project Overview
+## Project Overview
+
 WAGA is a complete online shopping system that handles real-world e-commerce workflows: user registration, product catalog, persistent shopping cart, and order processing.
 The project demonstrates backend development fundamentals critical for enterprise environments, secure authentication, database normalization, and transactional integrity.
 
