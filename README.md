@@ -12,10 +12,15 @@ The project demonstrates backend development fundamentals critical for enterpris
 ## Tech Stack (Codebase)
 
 •	Backend: PHP 8.2.12 (Procedural PHP with OOP concepts, Session Management)
+
 •	Database: MariaDB 10.4.32 - InnoDB Engine with Foreign Key Constraints
+
 •	Frontend / Client-Side: HTML5, CSS3, Vanilla JavaScript
+
 •	Security: `password_hash()` with BCRYPT (`$2y$10$`), SQL Injection prevention via constraints, Unique indexes on email/mobile
+
 •	Server: Apache via XAMPP
+
 •	Storage: Product images stored as `product_{hash}.jpeg/jpg/png` in filesystem
 
 My system uses 6 relational tables with proper referential integrity:
