@@ -84,5 +84,7 @@ Apache via XAMPP
 •	Input Handling: Product images sanitized as hashed filenames (`product_6a03542db2d49.jpeg`) to prevent directory traversal.
 
  ## How to Run
+
+ #### Browse the link below
  
 https://waga-online.morganugochukwu.com/waga/
