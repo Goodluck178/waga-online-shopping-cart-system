@@ -57,7 +57,7 @@ Apache via XAMPP
 
 #### E-Commerce Core Logic:
 
-•	Persistent cart (`waga_cart` + `waga_cart_item`) linked to `user_id` - survives login/logout unlike session-only carts
+•	Persistent cart 
 
 •	Add to cart with quantity handling 
 
