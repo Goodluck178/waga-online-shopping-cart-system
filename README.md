@@ -29,19 +29,11 @@ Apache via XAMPP
 
 #### 1.  users
 
-•	Implements secure authentication with BCRYPT hashing (verified in my data: $2y$10$...)
-
-•	Unique constraints on `email` and `mobileNo` to prevent duplicates
-
-•	Role-based access: user vs admin, the system currently has 6 admin users.
-
 #### 2. products
 
 #### 3. waga_cart (Active Cart System)
 
 •	This is my main cart implementation. Handles pending vs paid state.
-
-•	Foreign Key `ON DELETE CASCADE` ensures data integrity.
 
 #### 4. waga_cart_item
 
